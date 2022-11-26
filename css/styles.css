@@ -24,13 +24,12 @@ body {
   grid-template-columns: repeat(3, 1fr);
   /*declaro filas*/
   grid-template-rows: 125px 500px auto 50px;
-  grid-template-areas: "header header header" "carrousel carrousel carrousel" "adoptantes adoptantes adoptantes" "footer footer footer";
+  grid-template-areas: "headerIndex headerIndex headerIndex" "carrousel carrousel carrousel" "adoptantes adoptantes adoptantes" "footerIndex footerIndex footerIndex";
   height: 100vh;
 }
 
 header {
   background-color: black;
-  grid-area: header;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +38,10 @@ header {
   top: 0;
   z-index: 6;
   width: 100%;
+}
+
+.headerIndex {
+  grid-area: headerIndex;
 }
 
 .logo {
@@ -116,7 +119,6 @@ h3 {
 
 footer {
   margin-top: 2rem;
-  grid-area: footer;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -126,6 +128,10 @@ footer {
   border-width: 0.5rem;
   border-color: #218380;
   flex-wrap: wrap;
+}
+
+.footerIndex {
+  grid-area: footerIndex;
 }
 
 #nosotrosFlex {
@@ -364,7 +370,7 @@ iframe {
 @media screen and (max-width: 845px) {
   #grillaIndex {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header header" "carrousel carrousel" "adoptantes adoptantes" "footer footer";
+    grid-template-areas: "headerIndex headerIndex" "carrousel carrousel" "adoptantes adoptantes" "footerIndex footerIndex";
     grid-template-rows: 125px 350px auto 50px;
   }
   #ulnav {
@@ -393,7 +399,7 @@ iframe {
 @media screen and (max-width: 768px) {
   #grillaIndex {
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "carrousel" "adoptantes" "footer";
+    grid-template-areas: "headerIndex" "carrousel" "adoptantes" "footerIndex";
     grid-template-rows: 125px 300px auto 50px;
   }
   #ulnav {

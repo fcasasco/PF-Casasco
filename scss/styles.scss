@@ -27,7 +27,7 @@ img{
 body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(143,152,157,0.60);
+    background-color: $color-body;
 }
 
 #grillaIndex{
@@ -37,16 +37,15 @@ body{
     /*declaro filas*/
     grid-template-rows: 125px 500px auto 50px;
     grid-template-areas:
-    "header header header"
+    "headerIndex headerIndex headerIndex"
     "carrousel carrousel carrousel"
     "adoptantes adoptantes adoptantes"
-    "footer footer footer";
+    "footerIndex footerIndex footerIndex";
     height: 100vh;
 }
 
 header{
     background-color: black;
-    grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +54,10 @@ header{
     top: 0;
     z-index:6;
     width:100%;
+}
+
+.headerIndex{
+    grid-area: headerIndex;
 }
 
 .logo{
@@ -133,7 +136,6 @@ h3{
 
 footer{
     margin-top: 2rem;
-    grid-area: footer;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -143,6 +145,10 @@ footer{
     border-width: 0.5rem;
     border-color: #218380;
     flex-wrap: wrap;
+}
+
+.footerIndex{
+    grid-area: footerIndex;
 }
 
 #nosotrosFlex{
@@ -389,10 +395,10 @@ iframe{
     #grillaIndex {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-        "header header"
+        "headerIndex headerIndex"
         "carrousel carrousel"
         "adoptantes adoptantes"
-        "footer footer";
+        "footerIndex footerIndex";
         grid-template-rows: 125px 350px auto 50px;
     }
     #ulnav{
@@ -423,10 +429,10 @@ iframe{
     #grillaIndex{
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "header"
+        "headerIndex"
         "carrousel"
         "adoptantes"
-        "footer";
+        "footerIndex";
         grid-template-rows: 125px 300px auto 50px;
     }
     #ulnav{
