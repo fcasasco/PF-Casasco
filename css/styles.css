@@ -265,8 +265,8 @@ fieldset div {
   header {
     display: flex;
     flex-direction: column;
-    justify-content: column;
     align-items: center;
+    justify-content: column;
     flex-wrap: wrap;
   }
   .logo {

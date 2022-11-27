@@ -1,8 +1,5 @@
 #nosotrosFlex{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
+    @include flex-column-txtCenter-wrap;
     margin-top:13rem;
     h1{
         margin-bottom: 2rem;
@@ -16,10 +13,7 @@
 }
 
 #ayuda{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
+    @include flex-column-txtCenter-wrap;
     margin-bottom: 5rem;
     h2{
         margin-top: 2rem;
