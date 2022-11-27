@@ -1,7 +1,5 @@
 #contactoFlex{
-    @include flex-column-itemCenter;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    @extend #formFlex;
 }
 
 #contactoFlex h1{
