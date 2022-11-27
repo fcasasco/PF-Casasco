@@ -238,6 +238,12 @@
         align-content: center;
         font-size:1rem;
     }
+    #footerIndex{
+        padding: 2rem;
+    }
+    #footerNosotros, #footerForm, #footerContacto, #footerGaleria{
+        padding:0rem;
+    }
     iframe{
         width:350px;
         height: 175px;
