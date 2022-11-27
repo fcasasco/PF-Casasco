@@ -14,12 +14,12 @@ img{
 
 body{
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-    background-color: $color-body;
+    font-family: $fuente-google;
+    background-color: $bg-colorBody;
 }
 
 header{
-    background-color: black;
+    background-color: $bg-colorHeader;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@ header{
 }
 
 .logo{
-    border: solid #8f2d56;
+    border: solid $color-marcoLogo;
 }
 
 #ulnav{
@@ -46,9 +46,9 @@ header{
         font-weight: 1000;
         a{
             text-decoration: none;
-            color:#5cbcb8;
+            color:$color-anchor;
             &:hover{
-                background-color: #d81159;
+                background-color: $bg-colorHover;
                 padding: 1.5rem;
             }
         }
@@ -56,19 +56,19 @@ header{
 }
 
 h1{
-    font-size: 2.2rem;
+    font-size: $size-h1;
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 5rem;
 }
 
 h2{
-    font-size: 2rem;
+    font-size: $size-h2;
     text-align: center;
 }
 
 h3{
-    font-size: 1.6rem;
+    font-size: $size-h3;
     text-align: center;
 }
 
@@ -81,6 +81,6 @@ footer{
     font-size: .9rem;
     border-style: double;
     border-width: 0.5rem;
-    border-color: #218380;
+    border-color: $color-marcoFooter;
     flex-wrap: wrap;
 }

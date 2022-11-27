@@ -69,7 +69,7 @@
         font-size: 1.4rem;
     }
     .borde{
-        border: solid .3rem #d81159;
+        border: solid .3rem $color-borde;
         width:17%;
     }
     .adoptantesFotos{
@@ -191,7 +191,7 @@
         margin-top: 5rem;
     }
     .borde{
-        border: solid .4rem #d81159;
+        border: solid .4rem $color-borde;
     }
     .transformAdoptante1, .transformAdoptante3{
         width:20rem;

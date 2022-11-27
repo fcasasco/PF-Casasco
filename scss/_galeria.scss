@@ -1,9 +1,9 @@
 
 #galeria{
     display: flex;
-    flex-wrap: wrap;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
     margin-top: 10rem;
     padding: 2rem;
 }
@@ -11,9 +11,9 @@
 .imgGaleria{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
     align-items: center;
-    border: #d81159 solid 1rem;
+    flex-wrap: wrap;
+    border: $color-borde solid 1rem;
     gap:1rem;
     margin-top: 2rem;
     margin-bottom: 10rem;
@@ -27,8 +27,8 @@
 .videoGaleria{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;
     div h3{
         margin-top: 3rem;
     }
