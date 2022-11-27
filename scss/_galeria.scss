@@ -1,0 +1,40 @@
+
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding: 2rem;
+}
+
+.imgGaleria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    border: #d81159 solid 1rem;
+    gap:1rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    padding:1rem;
+    p{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+.videoGaleria{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    div h3{
+        margin-top: 3rem;
+    }
+}
+
+iframe{
+    width:560px;
+    height: 315px;
+}
