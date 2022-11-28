@@ -196,6 +196,10 @@ footer {
   margin-bottom: 1rem;
   text-align: center;
 }
+.donacion a {
+  text-decoration: none;
+  color: black;
+}
 
 .iconosGaleria {
   margin-top: 12.5rem;
