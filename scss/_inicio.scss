@@ -16,20 +16,6 @@
     grid-area: headerIndex;
 }
 
-.iconosFlex{
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    margin-right: 2rem;
-    gap: 2rem;
-    font-size: 2rem;
-   
-}
-
-i{
-    color: $color-icon;
-}
-
 #carrousel{
     grid-area: carrousel;
 }

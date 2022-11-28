@@ -55,6 +55,19 @@ header {
   padding: 1.5rem;
 }
 
+.iconosFlex {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+i {
+  color: black;
+}
+
 h1 {
   font-size: 2.2rem;
   text-align: center;
@@ -99,19 +112,6 @@ footer {
   grid-area: headerIndex;
 }
 
-.iconosFlex {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  margin-right: 2rem;
-  gap: 2rem;
-  font-size: 2rem;
-}
-
-i {
-  color: black;
-}
-
 #carrousel {
   grid-area: carrousel;
 }
@@ -152,7 +152,7 @@ i {
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 13rem;
+  margin-top: 12.5rem;
 }
 #nosotrosFlex h1 {
   margin-bottom: 2rem;
@@ -197,12 +197,16 @@ i {
   text-align: center;
 }
 
+.iconosGaleria {
+  margin-top: 12.5rem;
+}
+
 #galeria {
   display: flex;
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  margin-top: 10rem;
+  margin-top: 0rem;
   padding: 2rem;
 }
 
@@ -237,20 +241,31 @@ iframe {
   height: 315px;
 }
 
+.iconosAdopcion {
+  margin-top: 12.5rem;
+}
+
 #formFlex, #contactoFlex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 0rem;
   margin-bottom: 10rem;
 }
 
+#formAdopcion {
+  margin-top: 0rem;
+}
 #formAdopcion h1 {
   margin-bottom: 2rem;
 }
 #formAdopcion div {
   font-size: 1.2rem;
   padding: 0.5rem;
+}
+
+.iconosContacto {
+  margin-top: 12.5rem;
 }
 
 #contactoFlex h1 {
@@ -303,8 +318,8 @@ fieldset div {
   h3 {
     font-size: 1.5rem;
   }
-  #formAdopcion {
-    margin-top: 3rem;
+  .iconosGaleria, .iconosAdopcion, .iconosContacto {
+    margin-top: 15.5rem;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -360,6 +375,9 @@ fieldset div {
   }
   #videos h2 {
     margin-top: 0.5rem;
+  }
+  .iconosGaleria, .iconosAdopcion, .iconosContacto {
+    margin-top: 13rem;
   }
 }
 @media screen and (max-width: 943px) {
@@ -471,9 +489,15 @@ fieldset div {
   .testimonioAdoptante {
     font-size: 1.3rem;
   }
+  .iconosGaleria {
+    margin-top: 14.5rem;
+  }
   iframe {
     width: 450px;
     height: 242px;
+  }
+  .iconosAdopcion, .iconosContacto {
+    margin-top: 12.5rem;
   }
 }
 @media screen and (max-width: 555px) {
@@ -501,6 +525,9 @@ fieldset div {
   }
   #footerNosotros, #footerForm, #footerContacto, #footerGaleria {
     padding: 0rem;
+  }
+  .iconosGaleria {
+    margin-top: 12.5rem;
   }
   iframe {
     width: 350px;
@@ -553,8 +580,8 @@ fieldset div {
   .testimonioAdoptante {
     font-size: 1rem;
   }
-  #contactoFlex h1 {
-    margin-top: 12rem;
+  #nosotrosFlex {
+    margin-top: 10rem;
   }
   #galeria {
     margin-bottom: 0.1rem;
@@ -565,6 +592,12 @@ fieldset div {
   iframe {
     width: 250px;
     height: 109px;
+  }
+  #contactoFlex h1 {
+    margin-top: 12rem;
+  }
+  .iconosGaleria, .iconosAdopcion, .iconosContacto {
+    margin-top: 18.5rem;
   }
 }
 

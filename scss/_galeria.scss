@@ -1,6 +1,10 @@
+.iconosGaleria{
+    margin-top: 12.5rem;
+}
+
 #galeria{
     @include flex-column-txtCenter-wrap;
-    margin-top: 10rem;
+    margin-top: 0rem;
     padding: 2rem;
 }
 

@@ -36,8 +36,8 @@
     h3{
         font-size: 1.5rem;
     }
-    #formAdopcion{
-        margin-top: 3rem;
+    .iconosGaleria, .iconosAdopcion, .iconosContacto{
+        margin-top: 15.5rem;
     }
 }
 
@@ -94,6 +94,9 @@
     }
     #videos h2{
         margin-top: .5rem;
+    }
+    .iconosGaleria, .iconosAdopcion, .iconosContacto{
+        margin-top: 13rem;
     }
 }
 
@@ -216,9 +219,15 @@
     .testimonioAdoptante{
         font-size: 1.3rem;
     }
+    .iconosGaleria{
+        margin-top: 14.5rem;
+    }
     iframe{
         width:450px;
         height: 242px;
+    }
+    .iconosAdopcion, .iconosContacto{
+        margin-top: 12.5rem;
     }
 }
 
@@ -247,6 +256,9 @@
     }
     #footerNosotros, #footerForm, #footerContacto, #footerGaleria{
         padding:0rem;
+    }
+    .iconosGaleria{
+        margin-top: 12.5rem;
     }
     iframe{
         width:350px;
@@ -300,8 +312,8 @@
     .testimonioAdoptante{
         font-size: 1rem;
     }
-    #contactoFlex h1{
-        margin-top: 12rem;
+    #nosotrosFlex{
+        margin-top: 10rem;
     }
     #galeria{
         margin-bottom: 0.1rem;
@@ -312,5 +324,11 @@
     iframe{
         width:250px;
         height: 109px;
+    }
+    #contactoFlex h1{
+        margin-top: 12rem;
+    }
+    .iconosGaleria, .iconosAdopcion, .iconosContacto{
+        margin-top: 18.5rem;
     }
 }
