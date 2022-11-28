@@ -277,6 +277,7 @@ fieldset {
   padding: 2rem;
 }
 fieldset div {
+  font-size: 1.2rem;
   padding: 0.5rem;
 }
 
@@ -593,8 +594,15 @@ fieldset div {
     width: 250px;
     height: 109px;
   }
+  #galeria h1 {
+    margin-top: 4rem;
+  }
+  #formAdopcion {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   #contactoFlex h1 {
-    margin-top: 12rem;
+    margin-top: 5rem;
   }
   .iconosGaleria, .iconosAdopcion, .iconosContacto {
     margin-top: 18.5rem;
