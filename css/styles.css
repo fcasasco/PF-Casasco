@@ -484,15 +484,15 @@ fieldset div {
   .testimonioAdoptante {
     font-size: 1.3rem;
   }
-  .iconosGaleria {
-    margin-top: 14.5rem;
-  }
   iframe {
     width: 450px;
     height: 242px;
   }
-  .iconosAdopcion, .iconosContacto {
+  .iconosGaleria .iconosAdopcion {
     margin-top: 12.5rem;
+  }
+  .iconosContacto {
+    margin-top: 13rem;
   }
 }
 @media screen and (max-width: 555px) {
@@ -522,7 +522,7 @@ fieldset div {
     padding: 0rem;
   }
   .iconosGaleria {
-    margin-top: 12.5rem;
+    margin-top: 13rem;
   }
   iframe {
     width: 350px;
@@ -543,7 +543,7 @@ fieldset div {
     font-weight: 1000;
   }
   .iconosFlex {
-    margin-top: 9rem;
+    margin-top: 8.5rem;
   }
   .logo {
     width: 6rem;

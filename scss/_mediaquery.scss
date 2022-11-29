@@ -212,14 +212,14 @@
     .testimonioAdoptante{
         font-size: 1.3rem;
     }
-    .iconosGaleria{
-        margin-top: 14.5rem;
-    }
     iframe{
         @include ancho-alto (450px, 242px);
     }
-    .iconosAdopcion, .iconosContacto{
+    .iconosGaleria .iconosAdopcion{
         margin-top: 12.5rem;
+    }
+    .iconosContacto{
+        margin-top: 13rem;
     }
 }
 
@@ -250,7 +250,7 @@
         padding:0rem;
     }
     .iconosGaleria{
-        margin-top: 12.5rem;
+        margin-top: 13rem;
     }
     iframe{
         @include ancho-alto (350px, 175px);
@@ -271,7 +271,7 @@
         }
     }
     .iconosFlex{
-        margin-top: 9rem;
+        margin-top: 8.5rem;
     }
     .logo{
         @include ancho-alto (6rem, 5rem);
