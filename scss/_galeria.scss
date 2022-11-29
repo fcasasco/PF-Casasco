@@ -33,6 +33,5 @@
 }
 
 iframe{
-    width:560px;
-    height: 315px;
+    @include ancho-alto (560px, 315px);
 }

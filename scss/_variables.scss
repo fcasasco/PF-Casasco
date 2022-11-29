@@ -24,6 +24,11 @@ $color-borde: #d81159;
     align-items: center;
 }
 
+@mixin ancho-alto ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
 
 
 

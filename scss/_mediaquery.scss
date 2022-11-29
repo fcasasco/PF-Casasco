@@ -11,8 +11,7 @@
         width:10rem;
     }
     #ulnav{
-        margin-left: 9rem;
-        margin-right:9rem;
+        margin: 0 9rem;
         gap: 9rem;
         padding: 2rem;
         li{
@@ -49,8 +48,7 @@
         height:8rem;
     }
     #ulnav{
-        margin-right:8rem;
-        margin-left: 8rem;
+        margin:0 8rem;
         gap: 10rem;
         padding: 1rem;
         li{
@@ -102,8 +100,7 @@
 
 @media screen and (max-width:943px) {
     #ulnav{
-        margin-left: 4rem;
-        margin-right:4rem;
+        margin:0 4rem;
         gap: 7rem;
         li{
             font-size: 1.3rem;
@@ -137,8 +134,7 @@
         grid-template-rows: 125px 350px auto 50px;
     }
     #ulnav{
-        margin-left: 2rem;
-        margin-right:2rem;
+        margin:0 2rem;
     }
     h2{
         margin-top: 15rem;
@@ -171,8 +167,7 @@
         grid-template-rows: 125px 300px auto 50px;
     }
     #ulnav{
-        margin-left: 0.5rem;
-        margin-right:0.5rem;
+        margin: 0 0.5rem;
         padding: 1rem;
         gap:2rem;
         li{
@@ -202,16 +197,14 @@
         border: solid .4rem $color-borde;
     }
     .transformAdoptante1, .transformAdoptante3{
-        width:20rem;
-        height: 40rem;
+        @include ancho-alto (20rem, 40rem);
     }
     .transformAdoptante1{
         transform:translate(0rem, 0rem)rotate(0deg);
     }
     .transformAdoptante2{
         transform: translateY(0rem) scale(1,1);
-        width:25rem;
-        height:25rem;
+        @include ancho-alto (25rem, 25rem);
     }
     .transformAdoptante3{
         transform: translate(0rem, 0rem)rotate(0deg);
@@ -223,8 +216,7 @@
         margin-top: 14.5rem;
     }
     iframe{
-        width:450px;
-        height: 242px;
+        @include ancho-alto (450px, 242px);
     }
     .iconosAdopcion, .iconosContacto{
         margin-top: 12.5rem;
@@ -261,8 +253,7 @@
         margin-top: 12.5rem;
     }
     iframe{
-        width:350px;
-        height: 175px;
+        @include ancho-alto (350px, 175px);
     }
 }
 
@@ -283,8 +274,7 @@
         margin-top: 9rem;
     }
     .logo{
-        height: 5rem;
-        width:6rem;
+        @include ancho-alto (6rem, 5rem);
     }  
     #carouselExampleIndicators{
         width:50%;
@@ -306,8 +296,7 @@
         gap: 3rem;
     }
     .transformAdoptante1, .transformAdoptante3{
-        width:15rem;
-        height: 30rem;
+        @include ancho-alto (15rem, 30rem);
     }
     .testimonioAdoptante{
         font-size: 1rem;
@@ -329,8 +318,7 @@
         margin-top: 4rem;
     }
     #formAdopcion{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding: 0 2rem;
     }
     #contactoFlex h1{
         margin-top: 5rem;

@@ -6,8 +6,7 @@
         font-weight: bolder;
     }
     h2{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 2rem 0;
         font-weight: bolder;
     }
 }
@@ -16,13 +15,11 @@
     @include flex-column-txtCenter-wrap;
     margin-bottom: 5rem;
     h2{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 2rem 0;
         font-weight: bolder;
     }
     h3{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 2rem 0;
         font-weight: bolder;
     }
     ul li{
@@ -32,13 +29,11 @@
 
 .nosotros{
     font-size: 1.6rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: 0 3rem;
 }
 
 .donacion{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
     text-align: center;
     a{
         text-decoration: none;
