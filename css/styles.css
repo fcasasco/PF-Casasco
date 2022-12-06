@@ -378,7 +378,7 @@ fieldset div {
     font-size: 1.3rem;
   }
   h1 {
-    margin-top: 6rem;
+    margin-top: 3rem;
   }
   h2 {
     font-size: 2.1rem;
@@ -391,6 +391,9 @@ fieldset div {
   }
   .testimonioAdoptante {
     font-size: 0.9rem;
+  }
+  #contactoFlex h1 {
+    margin-top: 4rem;
   }
 }
 @media screen and (max-width: 845px) {
