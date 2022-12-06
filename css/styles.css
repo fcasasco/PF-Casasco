@@ -341,7 +341,7 @@ fieldset div {
     font-size: 1.4rem;
   }
   .borde {
-    border: 0.3rem;
+    border: solid 0.3rem #d81159;
     width: 17%;
   }
   .adoptantesFotos {
@@ -460,7 +460,7 @@ fieldset div {
     margin-top: 5rem;
   }
   .borde {
-    border: 0.4rem;
+    border: solid 0.4rem #d81159;
   }
   .transformAdoptante1, .transformAdoptante3 {
     width: 20rem;
@@ -513,7 +513,7 @@ fieldset div {
     margin-top: 0.5rem;
   }
   #carouselExampleIndicators {
-    width: 43%;
+    width: 50%;
   }
   h2 {
     margin-top: 10rem;
@@ -522,6 +522,9 @@ fieldset div {
   }
   h3 {
     font-size: 1.7rem;
+  }
+  #adoptantes {
+    margin-top: 12rem;
   }
   .testimonioAdoptante {
     font-size: 1.2rem;
@@ -566,7 +569,7 @@ fieldset div {
     font-size: 1.6rem;
   }
   #adoptantes {
-    margin-top: 0rem;
+    margin-top: 3rem;
   }
   .adoptantesFotos {
     gap: 3rem;

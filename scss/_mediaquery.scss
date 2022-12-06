@@ -64,7 +64,7 @@
         font-size: 1.4rem;
     }
     .borde{
-        border: .3rem;
+        border: solid .3rem $color-borde;
         width:17%;
     }
     .adoptantesFotos{
@@ -194,7 +194,7 @@
         margin-top: 5rem;
     }
     .borde{
-        border: .4rem;
+        border: solid .4rem $color-borde;
     }
     .transformAdoptante1, .transformAdoptante3{
         @include ancho-alto (20rem, 40rem);
@@ -245,7 +245,7 @@
         margin-top: .5rem;
     }
     #carouselExampleIndicators{
-        width:43%;
+        width: 50%;
     }
     h2{
         margin-top:10rem;
@@ -254,6 +254,9 @@
     }
     h3{
         font-size: 1.7rem;
+    }
+    #adoptantes{
+        margin-top: 12rem;
     }
     .testimonioAdoptante{
         font-size: 1.2rem;
@@ -298,7 +301,7 @@
         font-size: 1.6rem;
     }
     #adoptantes{
-        margin-top: 0rem;
+        margin-top: 3rem;
     }
     .adoptantesFotos{
         gap: 3rem;
