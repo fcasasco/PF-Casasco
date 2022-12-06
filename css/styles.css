@@ -478,16 +478,10 @@ fieldset div {
     width: 450px;
     height: 242px;
   }
-  .iconosGaleria .iconosAdopcion {
-    margin-top: 12.5rem;
-  }
-  .iconosContacto {
-    margin-top: 13rem;
-  }
 }
 @media screen and (max-width: 575px) {
   #grillaIndex {
-    grid-template-rows: 125px 260px auto 50px;
+    grid-template-rows: 80px 260px auto 50px;
   }
   header {
     flex-direction: row;
@@ -510,7 +504,7 @@ fieldset div {
     text-align: center;
   }
   .iconosFlex {
-    margin-top: 8.5rem;
+    margin-top: 0.5rem;
   }
   #carouselExampleIndicators {
     width: 43%;
@@ -537,6 +531,12 @@ fieldset div {
   iframe {
     width: 350px;
     height: 175px;
+  }
+  #nosotrosFlex {
+    margin-top: 8rem;
+  }
+  .iconosGaleria, .iconosAdopcion, .iconosContacto {
+    margin-top: 8.5rem;
   }
 }
 @media screen and (max-width: 399px) {
@@ -593,6 +593,9 @@ fieldset div {
   }
   #contactoFlex h1 {
     margin-top: 5rem;
+  }
+  .iconosGaleria, .iconosAdopcion, .iconosContacto {
+    margin-top: 10rem;
   }
 }
 
