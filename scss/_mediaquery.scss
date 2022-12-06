@@ -130,6 +130,9 @@
         "footerIndex footerIndex";
         grid-template-rows: 125px 350px auto 50px;
     }
+    header{
+        position: absolute;
+    }
     #ulnav{
         margin:0 2rem;
     }
@@ -162,6 +165,9 @@
         "adoptantes"
         "footerIndex";
         grid-template-rows: 125px 300px auto 50px;
+    }
+    header{
+        position: fixed;
     }
     #ulnav{
         margin: 0 0.5rem;
