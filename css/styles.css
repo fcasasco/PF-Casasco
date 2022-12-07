@@ -195,6 +195,7 @@ footer {
 .donacion a {
   text-decoration: none;
   color: black;
+  font-weight: bolder;
 }
 
 .iconosGaleria {
