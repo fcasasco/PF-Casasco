@@ -11,6 +11,10 @@
     }
 }
 
+.colorLink{
+    color: $color-link;
+}
+
 #ayuda{
     @include flex-column-txtCenter-wrap;
     margin-bottom: 5rem;

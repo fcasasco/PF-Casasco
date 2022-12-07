@@ -10,6 +10,7 @@ $color-icon:black;
 $bg-colorHover: #d81159;
 $color-marcoFooter: #218380;
 $color-borde: #d81159;
+$color-link: #d81159;
 
 @mixin flex-column-txtCenter-wrap {
     display: flex;
@@ -28,11 +29,3 @@ $color-borde: #d81159;
     width: $ancho;
     height: $alto;
 }
-
-
-
-
-
-
-
-

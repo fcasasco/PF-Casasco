@@ -41,7 +41,6 @@
         height:8rem;
     }
     #ulnav{
-        margin:0 8rem;
         padding: .5rem;
         li{
             font-size: 1.3rem;
@@ -93,10 +92,6 @@
 @media screen and (max-width:943px) {
     #ulnav{
         margin:0 3rem;
-        gap: 7rem;
-        li{
-            font-size: 1.3rem;
-        }
     }
     h1{
         margin-top: 3rem;
@@ -109,9 +104,6 @@
     }
     .adoptantesFotos{
         margin-top: 5rem;
-    }
-    .testimonioAdoptante{
-        font-size: 0.9rem;
     }
     #contactoFlex h1{
         margin-top: 4rem;
@@ -174,9 +166,6 @@
             font-size: 1rem;
         }
     }
-    h1{
-        margin-top: 3rem;
-    }
     h2{
         font-size: 2.2rem;
         margin-top: 5rem;
@@ -191,7 +180,6 @@
     .adoptantesFotos{
         flex-direction: column;
         gap: 2rem;
-        margin-top: 5rem;
     }
     .borde{
         border: solid .4rem $color-borde;
@@ -240,9 +228,6 @@
     .container-fluid{
         flex-direction: column;
         text-align: center;
-    }
-    .iconosFlex{
-        margin-top: .5rem;
     }
     #carouselExampleIndicators{
         width: 50%;
@@ -322,8 +307,7 @@
         margin-top:.1rem;
     }
     iframe{
-        width:250px;
-        height: 109px;
+        @include ancho-alto (250px, 109px);
     }
     #galeria h1{
         margin-top: 4rem;
