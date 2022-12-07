@@ -156,9 +156,6 @@
         "footerIndex";
         grid-template-rows: 125px 300px auto 50px;
     }
-    header{
-        position: fixed;
-    }
     #ulnav{
         margin: 0 0.5rem;
         gap:5rem;
@@ -213,6 +210,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        position: fixed;
     }
     #ulnav{
         flex-direction: column;
