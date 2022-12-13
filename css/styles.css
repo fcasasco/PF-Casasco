@@ -192,7 +192,7 @@ footer {
   margin: 1rem 0;
   text-align: center;
 }
-.donacion a {
+.donacion li a {
   text-decoration: none;
   color: black;
   font-weight: bolder;
@@ -429,10 +429,10 @@ fieldset div {
   }
   #ulnav {
     margin: 0 0.5rem;
-    gap: 5rem;
+    gap: 4rem;
   }
   #ulnav li {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   h2 {
     font-size: 2.2rem;
@@ -490,9 +490,6 @@ fieldset div {
     text-align: center;
     gap: 0rem;
   }
-  #ulnav li {
-    font-size: 1rem;
-  }
   #ulnav li a:hover {
     padding: 0.2rem;
   }
@@ -547,7 +544,7 @@ fieldset div {
     width: 65%;
   }
   h1 {
-    margin-top: 5rem;
+    margin-top: 5.3rem;
   }
   h2 {
     margin-top: 13rem;

@@ -158,9 +158,9 @@
     }
     #ulnav{
         margin: 0 0.5rem;
-        gap:5rem;
+        gap:4rem;
         li{
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     }
     h2{
@@ -216,11 +216,8 @@
         flex-direction: column;
         text-align: center;
         gap: 0rem;
-        li{
-            font-size: 1rem;
-            a:hover{
-                padding: .2rem;
-            }
+        li a:hover{
+            padding: .2rem;
         }
     }
     .container-fluid{
@@ -274,7 +271,7 @@
         width:65%;
     }
     h1{
-        margin-top: 5rem;
+        margin-top: 5.3rem;
     }
     h2{
         margin-top: 13rem;
